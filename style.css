@@ -1,0 +1,142 @@
+/* styles.css */
+
+/* Global resets and basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+/* Banner section styles */
+ /* .banner {
+    
+ } */
+
+/* About section styles */
+.about_section {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.about_text {
+    font-size: 16px;
+    color: #555;
+}
+
+.about_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Services section styles */
+.services_section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.services_taital {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.box_main {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.decorate_text {
+    color: #333;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.tation_text {
+    color: #666;
+    font-size: 16px;
+}
+
+/* Testimonial section styles */
+.client_section {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.client_name_text {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.customer_text {
+    color: #ccc;
+    font-size: 16px;
+}
+
+/* Contact section styles */
+.contact_section {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact_text {
+    color: #333;
+    font-size: 36px;
+}
+
+.contact_section_2 {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.email-bt,
+.massage-bt {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.main_bt a {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.main_bt a:hover {
+    background-color: #555;
+}
